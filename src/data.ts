@@ -17,6 +17,9 @@ import guestLoungeImage from './assets/images/salon_guest_lounge_1781670234702.j
 import pedicureStationImage from './assets/images/salon_pedicure_station_1781670255498.jpg';
 import stylingAreaImage from './assets/images/salon_styling_area_1781670275595.jpg';
 import leadStylistImage from './assets/images/salon_lead_stylist_1781670295502.jpg';
+import luxuriousRadianceImage from './assets/images/luxurious_radiance_1781963087801.jpg';
+import uncompromisingArtistryImage from './assets/images/uncompromising_artistry_1781963110582.jpg';
+import eliteSanctuaryImage from './assets/images/elite_sanctuary_1781963136090.jpg';
 
 export const IMAGES = {
   hero: heroImage,
@@ -30,6 +33,9 @@ export const IMAGES = {
   pedicureStation: pedicureStationImage,
   stylingArea: stylingAreaImage,
   leadStylist: leadStylistImage,
+  luxuriousRadiance: luxuriousRadianceImage,
+  uncompromisingArtistry: uncompromisingArtistryImage,
+  eliteSanctuary: eliteSanctuaryImage,
   spa: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=800&auto=format&fit=crop',
   team: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=800&auto=format&fit=crop',
   staff1: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=400&auto=format&fit=crop',
@@ -37,7 +43,7 @@ export const IMAGES = {
 };
 
 export const SALON_INFO = {
-  name: "Jugnu's Saloon B17",
+  name: "Jugnu's Saloon B-17",
   tagline: "Where Beauty Meets Elegance",
   address: "plot 4 Block C, mini Commercial, Madina Arcade, Street 8, Block C Multi Gardens B-17, Islamabad, Pakistan",
   shortAddress: "B-17 Segment, Islamabad, PK",

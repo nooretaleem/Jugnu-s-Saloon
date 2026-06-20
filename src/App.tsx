@@ -28,9 +28,10 @@ export default function App() {
   // Review slide state
   const [activeReviewIdx, setActiveReviewIdx] = useState<number>(0);
 
-  // Scroll back to top on tab change for high end single page experience
+  // Scroll back to top on tab change and ensure document title is correct
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'instant' });
+    document.title = "Jugnu's Saloon B-17 | Luxury Beauty Salon & Bridal Studio";
   }, [activeTab]);
 
   const openBookingWithService = (serviceId: string) => {
